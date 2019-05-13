@@ -1,0 +1,215 @@
+body {
+  font-family: "Lato", sans-serif !important;
+  font-size: 15px;
+  line-height: 1.6 !important;
+  color: rgb(50,50,50);
+  background-color: rgb(250,250,250);
+}
+
+h1,h2,h3, h4, h5 {
+  font-family: "Poppins", sans-serif !important;
+  color: rgb(100,100,100);
+  line-height: 1.6 !important;
+}
+
+a {
+  color: #7DA789 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: rgb(100,100,100) !important;
+}
+
+
+.banner {
+    color: white;
+    text-align: center;
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+
+.banner h1 {
+  font-size: 60px;
+}
+.banner p {
+  font-size: 25px;
+}
+
+
+.card {
+  height: 400px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+}
+.card-date {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  /*opacity: 0.7;*/
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-wagon-left {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: rgb(50,50,50);
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #7DA789;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Dropdown menu */
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  padding: 10px 10px;
+}
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+.section {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+#about-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about-photo {
+  height: 400px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  margin-right: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+}
+
+.list-recipes {
+  list-style: none;
+}
