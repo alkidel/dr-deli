@@ -4,6 +4,7 @@ body {
   line-height: 1.6 !important;
   color: rgb(50,50,50);
   background-color: rgb(250,250,250);
+  padding-bottom: 20px;
 }
 
 h1,h2,h3, h4, h5 {
@@ -93,7 +94,7 @@ a:hover {
   opacity: 0;
 }
 .card-link:hover {
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .map-container {
